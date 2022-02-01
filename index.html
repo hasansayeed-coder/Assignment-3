@@ -4,95 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convention Center</title>
+    <title>Document</title>
 
-    <!-- Bootstrap link  -->
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
 
-    <!-- Custom Css link  -->
-
+    <!-- custom css link  -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
     <header>
 
+
         <!-- navbar section  -->
-
-        <section class="navbar-section-top-bottom-spacing ">
-
-
-            <div class="d-flex justify-content-around">
-
-                <!-- navbar title  -->
-
-                <div>
-                    <h5>Abacus Convention Center</h5>
-                </div>
-
-                <!-- Menu section  -->
-
-                <div class="menu-spacing">
-                    <ul type="none" class="d-flex d-inline">
-                        <li class="ms-5">Home</li>
-                        <li class="ms-5">About Us</li>
-                        <li class="ms-5">Contact</li>
-                        <li class="ms-5">Subscribe</li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </section>
 
         <section>
 
-            <!-- Carousel bootstrap  -->
+            <nav class="navbar navbar-expand-lg navbar-light mt-lg-3 mb-lg-2">
+                <div class="container-fluid d-flex justify-content-around">
 
-            <div>
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                    <div>
+                        <h2>Abacus Convention Center</h2>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active " data-bs-interval="10000">
-                            <img src="images/banner.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-flex d-md-block text-white carousel-banner">
-                                <h5>The Perfect venue for your next event</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, deleniti
-                                    blanditiis. Laborum nihil eos dicta explicabo natus hic fugit voluptas!</p>
 
-                                <button type="button" class="btn btn-light carousel-button">Book Now</button>
-                            </div>
-                        </div>
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                            </li>
+
+                        </ul>
+
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+
                 </div>
-            </div>
+            </nav>
+
+
         </section>
 
+
+        <!-- carousel section  -->
+
+        <section class="mb-lg-5">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>The perfect venue for your<br>next event</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint Velit officia
+                                consequat duis enim velit </p>
+
+                            <button type="button" class="btn bg-light mb-lg-3 carousel-button">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>The perfect venue for your<br>next event</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint Velit officia
+                                consequat duis enim velit </p>
+                            <button type="button" class="btn bg-light mb-lg-3 carousel-button">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>The perfect venue for your<br>next event</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint Velit officia
+                                consequat duis enim velit </p>
+                            <button type="button" class="btn bg-light mb-lg-3 carousel-button">Book Now</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </header>
+
+
+    <!-- moment section -->
+
+    <section>
+
+        <div class="container d-lg-flex justify-content-lg-around">
+
+            <div>
+                <img class="moment-img" src="images/wedding.png" alt="">
+            </div>
+
+            <div class="mx-lg-auto my-lg-auto">
+                <h2 class="text-dark">Every moment is Precious </h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br>do amet sint. Velit officia consequat
+                    duis enim velit mollit.<br>Exercitation veniam consequat sunt nostrud amet.</p>
+
+                <button type="button" class="btn bg-primary mb-lg-3 text-white fw-bold">Explore our album</button>
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
 
