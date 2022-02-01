@@ -9,6 +9,10 @@
     <!-- Bootstrap link  -->
     <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
 
+    <!-- Custom Css link  -->
+
+    <link rel="stylesheet" href="style.css">
+
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,15 +26,20 @@
 
         <!-- navbar section  -->
 
-        <section>
+        <section class="navbar-section-top-bottom-spacing ">
+
 
             <div class="d-flex justify-content-around">
+
+                <!-- navbar title  -->
 
                 <div>
                     <h5>Abacus Convention Center</h5>
                 </div>
 
-                <div>
+                <!-- Menu section  -->
+
+                <div class="menu-spacing">
                     <ul type="none" class="d-flex d-inline">
                         <li class="ms-5">Home</li>
                         <li class="ms-5">About Us</li>
@@ -41,6 +50,46 @@
 
             </div>
 
+        </section>
+
+        <section>
+
+            <!-- Carousel bootstrap  -->
+
+            <div>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active " data-bs-interval="10000">
+                            <img src="images/banner.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-flex d-md-block text-white carousel-banner">
+                                <h5>The Perfect venue for your next event</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, deleniti
+                                    blanditiis. Laborum nihil eos dicta explicabo natus hic fugit voluptas!</p>
+
+                                <button type="button" class="btn btn-light carousel-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </section>
 
     </header>
