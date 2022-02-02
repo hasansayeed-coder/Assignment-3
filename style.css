@@ -1,12 +1,4 @@
-.carousel-button{
-    padding : 10px 43.5px;
-    line-height: 24px;
-    font-size: 16px;
-    color : #3F87F5;   
-    font-weight: 700; 
-}
-
-.moment-img{
-    height : 364px;
-    width : 546px;
+.carousel-book-now-btn{
+    height: 44px;
+    width : 168px;
 }
