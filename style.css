@@ -1,4 +1,7 @@
-.carousel-book-now-btn{
-    height: 44px;
-    width : 168px;
+@media only screen and (max-width : 767px){
+
+
+    .img-height{
+        height: 586px;
+    }
 }
